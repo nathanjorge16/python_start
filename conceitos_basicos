@@ -1,0 +1,49 @@
+#curso_python
+#tipos de dados
+''' 
+text - string
+number - integer(inteiro) ou float(decimais)
+boolean type - true ou false
+'''
+
+#variaveis
+'''
+O local onde armazena uma informação, 
+EX:
+x = 2
+y = -5
+nathan = 'adolescente'
+'''
+
+#input
+'''
+o usuario vai interagir no terminal 
+
+'''
+#função type
+'''
+se utiliza para saber qual o tipo que é a variavel
+ex:
+nome = 'nathan'
+print(type(nome))
+'''
+#exemplo para guardar variaveis 
+x = int(2)   
+z = float(4.2)
+y = x +2
+print(x,y,z)
+
+#exemplo com string
+nome = 'Nathan'
+idade = 23
+cidade = 'belo horizonte'
+
+print('Meu nome é',nome,'tenho',idade,'anos e moro em',cidade)
+
+#interagindo com usuario - input
+nome2 =input('qual é seu sobrenome: ')
+print('seu sobrenome é',nome2)
+
+nasci = int(input("seu ano de nascimento é: "))
+idade = 2024 - nasci
+print("sua idade é:",idade)

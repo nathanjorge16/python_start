@@ -1,0 +1,45 @@
+#Operadores logicos
+'''
+True and False, são considerados operadores logicos
+EX:
+'''
+renda_acima_5mil = True
+nome_limpo = False
+
+if renda_acima_5mil or nome_limpo:
+    print("Financiamento Aprovado")
+else:
+    print("Financiamento negado")
+
+#Multiplos operadores de comparação:
+'''
+Operadores de comparação usamos "<=" ou "<", ou até mesmo "="
+EX:
+'''
+
+valor = 40
+if 20 <= valor < 35:
+    print("Condição verdadeira")
+else:
+    print("Condição falsa")
+
+
+#For Loops (lopping)
+'''
+For loop é utilizado quando sabe o tamanho do loop, com isso
+é utilizado o "for" para ficar algo menos mecanico.
+EX:
+'''
+for numero in range(10):
+    print("Impressão do numero",numero)
+
+palavra = "Nathan_Marlon"
+
+for letra in palavra:
+    print(letra)
+
+# While Loops
+'''
+quando não sabe o tamanho do loop, com isso é utilizado
+o while para ficar menos mecanico
+'''
